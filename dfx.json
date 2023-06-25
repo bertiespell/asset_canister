@@ -1,0 +1,33 @@
+{
+  "canisters": {
+    "asset_canister": {
+      "type": "rust",
+      "package": "asset_canister",
+      "candid": "src/asset_canister/asset_canister.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    },
+    "replica": {
+      "subnet_type": "system"
+    }
+  },
+  "networks": {
+    "staging": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    },
+    "test": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}

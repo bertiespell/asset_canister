@@ -1,0 +1,18 @@
+[package]
+name = "asset_canister"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candid = "0.8.0"
+# This feature is needed for a security fix: https://github.com/chronotope/chrono/issues/602#issuecomment-1242149249
+chrono = { version = "0.4.22", default-features = false, features = ["clock"] }
+ic-cdk = "0.6.4"
+ic-cdk-macros = "0.6.4"
+ic-stable-structures = "0.1.2"
+serde = "1.0.144"
+ic-certified-map = "0.3.1"
+serde_bytes = "0.11"
+num-traits = "0.2.15"
+rmp-serde = "1.1.0"
+sha3 = "0.10.1"

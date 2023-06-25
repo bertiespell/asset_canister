@@ -1,0 +1,10 @@
+# Ignore DFINITY SDK state directory
+.dfx/
+
+# Ignore Rust build artifacts
+target/
+**/*.wasm
+**/*.wat
+
+# Ignore Cargo lock file
+Cargo.lock
