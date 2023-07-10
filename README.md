@@ -1,4 +1,4 @@
-# Asset_canister
+# Signals Compatible Asset Canister
 
 This canister is an example of how assets can be stored on the IC, which is compatible with the Signals Dapp https://signalsicp.com/. Signals allows users to save assets into their own user-controlled canister by configuring the canister ID on a user's profile page. In order to configure your own canister, so that you control the image and video data in your own canister, you can follow the instructions here.
 
