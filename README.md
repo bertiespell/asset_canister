@@ -96,3 +96,7 @@ For pkg-config to find openssl@3 you may need to set:
 ```
 
 For packages that need a security update, this can be done automatically using `cargo install cargo-audit --features=fix`
+
+## Topping up your canister
+
+In order to save data to your canister and read from it, you need to ensure your canister has cycles. You can follow the Dfinity guide on topping up canisters here.
